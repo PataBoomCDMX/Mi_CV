@@ -1,0 +1,56 @@
+* {
+    /*Generales para identar ctrl+alt+i*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html {
+    height: auto;
+    background-image: linear-gradient(to bottom right, white, blue);
+}
+
+body {
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: arial;
+}
+
+table th {
+    border-style: solid;
+    background-color: rgb(39, 70, 226);
+    border-width: 0.1em;
+    border-color: black;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+table td {
+    border-style: solid;
+    border-width: 0.1em;
+    font-family: Arial;
+    background-color: #EFECF7;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 255);
+    /*text-align:Center;*/
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    color: rgb(100, 100, 200);
+}
+
+.image-profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
